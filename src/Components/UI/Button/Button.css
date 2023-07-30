@@ -1,0 +1,15 @@
+.button{
+    align-items: center;
+    background-color: #FD665E;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 767px) {
+    .button{
+        font-size: 16px;
+        padding: 15px 20px 15px 20px;
+    }
+}

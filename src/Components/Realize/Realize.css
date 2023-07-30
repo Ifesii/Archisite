@@ -1,0 +1,37 @@
+.realize{
+    display: flex;
+    margin: 50px 0 0 420px;
+}
+
+.realize > img{
+    height: 470px;
+}
+
+
+.realize > div{
+    text-align: center;
+    margin: 110px 0 0 50px;
+}
+
+.realize > div> h2{
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.move{
+    color: #FD665E;
+}
+
+
+@media (max-width: 767px) {
+    .realize{
+        align-items: center;
+        flex-direction: column;
+        margin: 40px 0 70px 0 ;
+    }
+
+    .realize > div{
+        margin: 0;
+    }
+}

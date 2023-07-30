@@ -1,0 +1,41 @@
+.tile{
+    align-items:self-start;
+    display: flex;
+}
+
+.tile > img{
+    height: 45px;
+}
+
+.tile2{
+    display: block;
+    margin: -15px 0 0 15px;
+    width: 250px;
+}
+
+.tile2 > h5{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.tile2 > p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+
+@media (max-width: 767px){
+    .tile > img {
+        height: 60px;
+    }
+
+    .tile2 > h5{
+        font-size: 16px;
+    }
+
+    .tile2 > p{
+        font-size: 18px;
+        font-family: Inter;
+    }
+}
